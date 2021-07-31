@@ -264,11 +264,14 @@ section .title::after {
 
 .skills .title::before {
     background: white;
+    z-index: 1;
 }
 
 .skills .title::after {
     content: "what i know";
+    color: crimson;
     background: black;
+    z-index: 2;
 }
 
 .skills .skills__content .col {
