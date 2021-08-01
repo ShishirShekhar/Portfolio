@@ -730,3 +730,224 @@ footer span a:hover {
         width: 100%;
     }
 }
+
+/* 4k support */
+@media screen and (min-width: 2000px) {
+    /* Global */
+    .max__width {
+        max-width: 2500px;
+    }
+    
+    /* Styling similar elements */
+    section .title {
+        font-size: 80px;
+        margin-bottom: 120px;
+        padding-bottom: 40px;
+    }
+    
+    section .title::before {
+        width: 360px;
+        height: 6px;
+    }
+    
+    section .title::after {
+        font-size: 40px;
+        bottom: -14px;
+    }
+
+    /* Styling navigation bar  */
+    .nav {
+        padding: 60px 0px;
+    }
+
+    .nav.sticky {
+        padding: 30px 0px;
+    }
+
+    .nav .menu li a {
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .nav .menu li a:hover {
+        font-size: 60px;
+    }
+
+    .nav.sticky .menu li a:hover {
+        font-size: 60px;
+    }
+
+    .nav .logo a{
+        font-size: 70px;
+    }
+
+    /* Styling home */
+    .home .home__content .text-1 {
+        font-size: 54px;
+    }
+
+    .home .home__content .text-2 {
+        font-size: 150px;
+        margin-left: -5px;
+    }
+
+    .home .home__content .text-3 {
+        font-size: 80px;
+        margin: 10px 0px;
+    }
+
+    .home .home__content a {
+        font-size: 50px;
+        padding: 24px 72px;
+        margin-top: 40px;
+        border-radius: 12px;
+    }
+
+    /* Styling About section. */
+    .about .about__content .left img{
+        width: 800px;
+        height: 800px;
+    }
+    
+    .about .about__content .right .text {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .about .about__content .right p {
+        font-size: 32px;
+    }
+    
+    .about .about__content .right a {
+        font-size: 40px;
+        padding: 20px 60px;
+        margin-top: 40px;
+        border-radius: 12px;
+        border: 4px solid crimson;
+    }
+
+    /* Styling skills here.  */
+    .skills .skills__content .left .text {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .skills .skills__content .left p {
+        font-size: 32px;
+    }
+
+    .skills .skills__content .left a {
+        font-size: 36px;
+        padding: 16px 32px;
+        margin-top: 40px;
+        border-radius: 12px;
+        border: 4px solid crimson;
+    }
+
+    .skills .skills__content .right .bars {
+        margin-bottom: 30px;
+    }
+
+    .skills .skills__content .right .bars .info {
+        margin-bottom: 10px;
+    }
+
+    .skills .skills__content .right .bars .info span {
+        font-size: 36px;
+    }
+
+    .skills .skills__content .right .bars .line {
+        height: 10px;
+    }
+
+    /* Styling Contact */
+    .contact .contact__content .text {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .contact .contact__content {
+        font-size: 32px;
+    }
+
+    .contact .contact__content .left .icons {
+        margin: 20px 0;
+    }
+
+    .contact .contact__content .row {
+        height: 130px;
+    }
+
+    .contact .contact__content .row i {
+        font-size: 50px;
+        color: crimson;
+    }
+
+    .contact .contact__content .row .info {
+        margin-left: 30px;
+    }
+
+    .contact .contact__content .info .head {
+        font-weight: 500;
+    }
+
+    .contact .right form .field {
+        height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .contact .right form .name {
+        margin-right: 20px;
+    }
+
+    .contact .right form .textarea {
+        height: 160px;
+    }
+
+    .contact .right form .field input,
+    .contact .right form .textarea textarea
+    {
+        border: 2px solid lightgrey;
+        border-radius: 12px;
+        padding: 0 30px;
+        font-size: 34px;
+    }
+
+    .contact .right form .button {
+        height: 94px;
+        width: 240px;
+    }
+
+    .contact .right form .button button {
+        width: 320px;
+        height: 90px;
+        border: 4px solid crimson;
+        border-radius: 20px;
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    /* Styling footer section. */
+    footer {
+        padding: 40px 46px;
+        font-size: 32px;
+    }
+
+    footer span a:hover {
+        font-size: 100px;
+    }
+
+    .scroll__up__btn {
+        height: 90px;
+        width: 84px;
+        right: 60px;
+        line-height: 90px;
+        font-size: 60px;
+        border-radius: 12px;
+    }
+
+    .scroll__up__btn.show {
+        bottom: 60px;
+    }
+
+}
