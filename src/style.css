@@ -346,27 +346,27 @@ section .title::after {
 }
 
 .skills .skills__content .right .bars .css::before {
-    width: 70%;
+    width: 80%;
 }
 
 .skills .skills__content .right .bars .js::before {
-    width: 50%;
+    width: 80%;
 }
 
 .skills .skills__content .right .bars .python::before {
-    width: 80%;
+    width: 90%;
 }
 
 .skills .skills__content .right .bars .data::before {
-    width: 80%;
+    width: 90%;
 }
 
 .skills .skills__content .right .bars .ml::before {
-    width: 70%;
+    width: 90%;
 }
 
 .skills .skills__content .right .bars .cpp::before {
-    width: 70%;
+    width: 80%;
 }
 
 .skills .skills__content .right .bars .cp::before {
